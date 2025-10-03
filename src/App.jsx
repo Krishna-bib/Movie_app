@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { useDebounce, useUpdateEffect } from 'react-use';
-import Search from './components/search.jsx'
+import Search from './components/Search.jsx'
 import axios from "axios"
-import Spinner from './components/spinner.jsx';
+import Spinner from './components/Spinner.jsx';
 import Card from './components/Card.jsx';
 import { Client } from 'appwrite';
 import updateSearchCount from './appwrite.js'
