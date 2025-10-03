@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { useDebounce, useUpdateEffect } from 'react-use';
-import Search from './components/search'
-import "dotenv";
+import Search from './components/search.jsx'
 import axios from "axios"
-import Spinner from './components/spinner';
-import Card from './components/Card';
+import Spinner from './components/spinner.jsx';
+import Card from './components/Card.jsx';
 import { Client } from 'appwrite';
 import updateSearchCount from './appwrite.js'
 import {TredningMovies} from "./appwrite.js"
